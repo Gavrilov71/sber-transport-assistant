@@ -1,0 +1,21 @@
+.venv/
+.venv-new/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage.xml
+htmlcov/
+
+# Generated source cache. Runtime uses committed chunks.json + sources.json.
+app/data/raw_sources/
+app/data/source_snapshots.json
+app/data/vector_index.json
