@@ -1,0 +1,8 @@
+[
+  {"issue_types":["transport_card","social_transport_card","troika","bank_card_payment","payment_problem","stop_list","double_charge","validator_problem"],"primary_authority":"oeirc","required_fields":[],"territory_sensitive":false},
+  {"issue_types":["schedule_violation","missed_trip","route_change","route_information","wrong_route","no_stop","driver_behavior","vehicle_cleanliness"],"route_scope":"intermunicipal","primary_authority":"orgpn","required_fields":[]},
+  {"issue_types":["schedule_violation","missed_trip","route_change","route_information","wrong_route","no_stop","driver_behavior","vehicle_cleanliness"],"municipality":"tula","primary_authority":"amo_tula","required_fields":["municipality"]},
+  {"issue_types":["schedule_violation","missed_trip","route_change","route_information","wrong_route","no_stop","driver_behavior","vehicle_cleanliness"],"municipality":"novomoskovsk","primary_authority":"amo_novomoskovsk","required_fields":["municipality"]},
+  {"issue_types":["schedule_violation","missed_trip","route_change","route_information","wrong_route","no_stop","driver_behavior","vehicle_cleanliness"],"municipality":"*","primary_authority":"orgpn","required_fields":["municipality"]},
+  {"issue_types":["vehicle_technical_condition","vehicle_safety","unsafe_driver","vehicle_defect_hazard"],"primary_authority":"rostransnadzor_tula","required_fields":[]}
+]

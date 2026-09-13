@@ -1,0 +1,11 @@
+{
+  "id": "immediate_transport_danger",
+  "emergency_number": "112",
+  "source_name": "МЧС России",
+  "source_url": "https://csoor.organizations.mchs.gov.ru/deyatelnost/poleznaya-informaciya/poleznye-sovety/sistema112",
+  "verified": true,
+  "guidance": [
+    "При непосредственной угрозе жизни или здоровью сообщите о происшествии по номеру 112.",
+    "Сообщите оператору, что произошло и где находится транспорт."
+  ]
+}
